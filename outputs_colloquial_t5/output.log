@@ -1,0 +1,18 @@
+Namespace(add_unk=False, bert_model='./roberta-large', cache_dir='./roberta', data_dir='./colloquial-claims/data', debug_mode=False, dev_set='colloquial_claims_valid_t5', do_eval=False, do_lower_case=True, do_test=False, do_train=False, do_train_eval=False, eval_batch_size=32, f='/data/home/acw722/.local/share/jupyter/runtime/kernel-c4a2b8d1-7828-4a64-a74d-539f591f1e69.json', gradient_accumulation_steps=1, learning_rate=2e-05, lmd=0.1, load_dir=None, max_seq_length=512, num_train_epochs=20, output_dir='./outputs_colloquial_t5', period=1000, response_tag='response', seed=42, task_name='LPA', test_set='colloquial_claims_test_t5', train_batch_size=32, train_set='colloquial_claims_train_t5', warmup_proportion=0.3)
+Command is: /data/home/acw722/pipenv/lib/python3.8/site-packages/ipykernel_launcher.py -f /data/home/acw722/.local/share/jupyter/runtime/kernel-c4a2b8d1-7828-4a64-a74d-539f591f1e69.json
+Device: cuda, n_GPU: 0
+Datasets are loaded from ./colloquial-claims/data
+Outputs will be saved to ./outputs_colloquial_t5
+
+Model is loaded from ./roberta-large
+Get examples from: colloquial_claims_train_t5.jsonl
+Get examples from: colloquial_claims_train_t5.jsonl
+Get examples from: colloquial_claims_train_t5.jsonl
+Namespace(add_unk=False, bert_model='./roberta-large', cache_dir='./roberta', data_dir='/data/home/acw722/STAGE0/colloquial-claims/data', debug_mode=False, dev_set='colloquial_claims_valid_t5', do_eval=False, do_lower_case=True, do_test=False, do_train=False, do_train_eval=False, eval_batch_size=32, f='/data/home/acw722/.local/share/jupyter/runtime/kernel-c4a2b8d1-7828-4a64-a74d-539f591f1e69.json', gradient_accumulation_steps=1, learning_rate=2e-05, lmd=0.1, load_dir=None, max_seq_length=512, num_train_epochs=20, output_dir='./outputs_colloquial_t5', period=1000, response_tag='response', seed=42, task_name='LPA', test_set='colloquial_claims_test_t5', train_batch_size=32, train_set='colloquial_claims_train_t5', warmup_proportion=0.3)
+Command is: /data/home/acw722/pipenv/lib/python3.8/site-packages/ipykernel_launcher.py -f /data/home/acw722/.local/share/jupyter/runtime/kernel-c4a2b8d1-7828-4a64-a74d-539f591f1e69.json
+Device: cuda, n_GPU: 0
+Datasets are loaded from /data/home/acw722/STAGE0/colloquial-claims/data
+Outputs will be saved to ./outputs_colloquial_t5
+
+Model is loaded from ./roberta-large
+Get examples from: colloquial_claims_train_t5.jsonl
